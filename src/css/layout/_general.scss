@@ -1,5 +1,29 @@
 body{
+    font-family: 'Poppins', sans-serif;
+
     &.hidden{
         overflow: hidden;
+    }
+}
+
+
+//****************************//
+//*** POPULAR DESTINATIONS **//
+//**************************//
+
+.destinations{
+    background: white;
+    padding: 30px;
+    .destinations_text{
+        height: 250px;
+        padding: 30px 10px;
+        text-align: center;
+        p{
+            color: grey;
+        }
+
+    }
+    .destinations_img{
+        height: 250px;
     }
 }

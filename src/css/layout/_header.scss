@@ -1,0 +1,239 @@
+//*****************//
+//***SMALL HEADER**//
+//*****************//
+header {
+    background: linear-gradient(to right, #0000003d, rgba(17, 16, 16, 0.507)),
+        url('/img/hero-bg.jpg')no-repeat center/cover;
+    width: 100%;
+    height: 120vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+    .small_header {
+        padding: 10px 50px;
+
+        .sh_1 {
+            display: flex;
+            justify-content: space-between;
+
+            .sh_1_a {
+                font-size: 12px;
+                width: 150px;
+                display: flex;
+                justify-content: space-around;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+
+                    &:hover {
+                        color: #f8b600;
+                    }
+                }
+            }
+
+            .sh_1_b {
+                font-size: 12px;
+                width: 100px;
+                display: flex;
+                justify-content: space-around;
+
+                i {
+                    &:hover {
+                        color: #f8b600;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//********STICKY & BURGER *********//
+header {
+    .small_header {
+        .sh_2 {
+            display: flex;
+            justify-content: space-between;
+            background: #5a636f82;
+            padding: 20px;
+            margin: 10px;
+
+            .sh_2_b {
+                .burger-menu {
+                    width: 70px;
+                    height: 80px;
+                    position: fixed;
+                    top: 37px;
+                    right: 70px;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    flex-direction: column;
+                    cursor: pointer;
+                    z-index: 11;
+
+                    span {
+                        background: white;
+                        width: 20px;
+                        height: 2px;
+                        position: absolute;
+
+                        &:first-child {
+                            top: 25px;
+                            left: 25px;
+                        }
+
+                        &:nth-child(2) {
+                            top: 30px;
+                            left: 10;
+                        }
+
+                        &:last-child {
+                            top: 35px;
+                            left: 10;
+                        }
+                    }
+
+                    &.actioncroix {
+                        span:first-child {
+                            transform: rotate(45deg);
+                            top: 30px;
+                        }
+
+                        span:nth-child(2) {
+                            opacity: 0;
+                        }
+
+                        span:last-child {
+                            transform: rotate(-45deg);
+                            top: 30px;
+                        }
+                    }
+
+                }
+            }
+        }
+        .sticky{
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+    }
+}
+
+//au click///
+.clique{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background:rgba(17, 17, 17, 0.924);
+    z-index: 10;
+    display: flex;
+    justify-content: space-start;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    div{
+        display: flex; 
+        justify-content:start;
+        flex-direction: column; 
+        align-content:flex-start;
+        padding: 20px 10px;
+        background: black;
+        height: 100vh;
+        width: 200px;
+        text-align: left;
+        position: absolute;
+        top: 10px;
+        left: 0px;
+       
+
+    }
+    a{
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        text-transform: uppercase;  padding: 10px;   
+    }
+    &.actif{
+        opacity:1 ;
+        position: fixed;
+    }
+}
+
+
+  
+
+//*****************//
+//***BIG HEADER**//
+//*****************//
+
+header {
+    .big_header {
+        padding: 10px 60px;
+
+        .bh_1 {
+            text-align: left;
+            padding-bottom: 80px;
+
+            p {
+                font-size: 15px;
+                line-height: 25px;
+            }
+
+            
+        }
+    }
+}
+
+//SEARCH TOOL//
+
+header {
+    .big_header {
+        .bh_2 {
+            .bh_2_a {
+                padding-bottom: 0px;
+                display: inline-block;
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    li { 
+                        list-style-type: none;
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            padding: 10px;
+                            background: rgba(153, 152, 152, 0.404);
+                            font-weight: bold;
+                            font-size: 15px;
+                        }
+                    }
+                }
+
+            }
+            .bh_2_b{
+                background: white;
+                width: 485px;
+                height: 500px;
+                .form_container{
+                    padding: 20px 40px;
+                    text-align: center;
+                    form{
+                       
+                        input{
+                            width: 400px;
+                            height: 50px;
+                            padding: 10px;
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+

@@ -9,7 +9,8 @@
   "author": "Olivier Céréssia",
   "license": "ISC",
   "dependencies": {
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "swiper": "^4.4.6"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",

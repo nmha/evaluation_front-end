@@ -17,3 +17,20 @@ $(window).scroll(function(){
         $('.sh_2').removeClass('sticky');
     }    
 });
+
+
+//****************************//
+//*** SWIPER************** **//
+//**************************//
+var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+
+    // Navigation arrows
+    pagination: {
+        el: '.swiper-pagination',
+      },
+
+    
+  })

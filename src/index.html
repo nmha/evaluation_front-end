@@ -4,25 +4,27 @@
 <head>
     <title>Evaluation HTML/CSS/JS/ 2018-2019</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../dist/css/swiper.min.css">
+    <link rel="stylesheet" href="path/to/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
         crossorigin="anonymous">
-
-
     <link href="css/style.min.css" rel="stylesheet">
 </head>
 <!-- MOBILE FIRST -->
+
 <body>
     <!-- Header -->
     <header>
-            <nav class="clique">
-                    <div>
-                            <a class="js-scrollTo" href="#id_intro">Home</a>
-                            <a class="js-scrollTo" href="#id_key">Book your holidays</a>
-                            <a class="js-scrollTo" href="#id_tips">packages</a>
-                            <a class="js-scrollTo" href="#id_count">Contact</a>
-                            
-                    </div>
-                </nav>
+        <nav class="clique">
+            <div>
+                <a class="js-scrollTo" href="#id_intro">Home</a>
+                <a class="js-scrollTo" href="#id_key">Book your holidays</a>
+                <a class="js-scrollTo" href="#id_tips">packages</a>
+                <a class="js-scrollTo" href="#id_count">Contact</a>
+
+            </div>
+        </nav>
         <!-- SMALL HEADER -->
 
         <div class="small_header">
@@ -38,7 +40,7 @@
                     <i class="fab fa-behance"></i>
 
                 </div>
-                
+
             </div>
             <!-- sticky header and burger-menu -->
             <div class="sh_2">
@@ -60,62 +62,320 @@
             <div class="bh_1">
                 <h3>AWAY FROM MONOTONOUS LIFE </h3>
                 <h1>MAGICAL TRAVEL</h1>
-                <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
+                <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in
+                    price. You may see some for as low as $.17 each.</p>
                 <button class="main-button">Get Started</button>
             </div>
 
             <div class="bh_2">
                 <div class="bh_2_a">
                     <ul>
-                        <li><a href=""class="flights">Flights</a></li>
-                        <li><a href=""class="hotels">Hotels</a></li>
-                        <li><a href=""class="Holydays">Holidays</a></li>
+                        <li><a href="" class="flights">Flights</a></li>
+                        <li><a href="" class="hotels">Hotels</a></li>
+                        <li><a href="" class="Holydays">Holidays</a></li>
                     </ul>
                 </div>
                 <div class="bh_2_b">
-                        <div class="form_container">
-                                <form action="get">
-                                        <input type="text" name="from" id="from" required autofocus maxlength="10" autocomplete="from"
-                                        placeholder="From">
-                                        <input type="text" name="to" id="to" required autofocus maxlength="10" autocomplete="to"
-                                        placeholder="To">
-                                        <input type="date" id="date" name="date" placeholder="Start">
-                                        <input type="date" id="date" name="date" placeholder="Return">
-                                        <input type="text" name="return" id="return" required autofocus maxlength="10" autocomplete="return"
-                                        placeholder="1">
-                                        <input type="text" name="return" id="return" required autofocus maxlength="10" autocomplete="return"
-                                        placeholder="1">
-                                </form>
-                                <button class="main-button"> search flights</button>
-                        </div>
-                    
+                    <div class="form_container">
+                        <form action="get">
+                            <input type="text" name="from" id="from" required autofocus maxlength="10" autocomplete="from"
+                                placeholder="From">
+                            <input type="text" name="to" id="to" required autofocus maxlength="10" autocomplete="to"
+                                placeholder="To">
+                            <input type="date" id="date" name="date" placeholder="Start">
+                            <input type="date" id="date" name="date" placeholder="Return">
+                            <input type="text" name="return" id="return" required autofocus maxlength="10" autocomplete="return"
+                                placeholder="1">
+                            <input type="text" name="return" id="return" required autofocus maxlength="10" autocomplete="return"
+                                placeholder="1">
+                        </form>
+                        <button class="main-button"> search flights</button>
+                    </div>
+
                 </div>
             </div>
         </div>
     </header>
-<!-- POPULAR DESTINATIONS -->
+    <!-- POPULAR DESTINATIONS -->
     <main>
-      <div class="destinations">
-          <div class="destinations_text">
-              <h1>Popular Destinations</h1>
-              <p>We all live in an age that belongs to the young at heart. Life that is becoming extremely fast, day.
+        <div class="destinations">
+            <div class="destinations_text">
+                <h1>Popular Destinations</h1>
+                <p>We all live in an age that belongs to the young at heart. Life that is becoming extremely fast, day.
 
                 </p>
-          </div>
-          <div class="destinations_img">
-              <img src="img/dd1.png" alt="moutain_rivers">
-          </div>
-          <div class="destinations_img">
-                <img src="img/dd1.png" alt="moutain_rivers">
+            </div>
+            <div class="destinations_img">
+                <img src="/img/g2.jpg" alt="moutain_rivers">
+                <h5>Moutain River</h5>
+                <h6>Paraguay</h6>
+                <button>$150</button>
+
             </div>
 
-      </div>
+            <div class="destinations_img">
+                <img src="/img/g2.jpg" alt="moutain_rivers">
+                <h5>Moutain River</h5>
+                <h6>Paraguay</h6>
+                <button>$150</button>
+
+            </div>
+            <div class="destinations_img">
+                <img src="/img/g2.jpg" alt="moutain_rivers">
+                <h5>Moutain River</h5>
+                <h6>Paraguay</h6>
+                <button>$150</button>
+
+            </div>
+
+        </div>
     </main>
 
+    <!-- We Provide Affordable Prices -->
+
+    <section class="affordable">
+        <div class="affordable_text">
+            <h1>We Provide Affordable Prices
+            </h1>
+            <p>Well educated, intellectual people, especially scientists at all times demonstrate considerably.
+            </p>
+        </div>
+
+        <!-- TABS -->
+
+        <div class="affordable_tab">
+            <div class="aff_t_text">
+                <p>Cheap Packages
+                </p>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+
+
+        </div>
+
+
+        <div class="affordable_tab">
+            <div class="aff_t_text">
+                <p>Luxury Packages
+                </p>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+
+
+        </div>
+        <div class="affordable_tab">
+            <div class="aff_t_text">
+                <p>Camping Packages
+                </p>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+            <div class="aff_t_tab">
+                <h6>New-York</h6>
+                <button>$1500</button>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Other issues we can help you with -->
+
+    <section class="issues">
+        <div class="issues_text">
+            <h1>Other issues we can help you withs
+            </h1>
+            <p>We all live in an age that belongs to the young at heart. Life that is.
+            </p>
+        </div>
+        <!-- REPETITION 4 TIMES -->
+        <div class="issues_content">
+            <div class="issues_content_img">
+                <img src="/img/o1.jpg" alt="car">
+            </div>
+            <div class="issues_content_text">
+                <h4>Rent a car</h4>
+                <p>The preservation of human life is the ultimate value, a pillar of ethics and the foundation.</p>
+            </div>
+        </div>
+        <div class="issues_content">
+            <div class="issues_content_img">
+                <img src="/img/o2.jpg" alt="car">
+            </div>
+            <div class="issues_content_text">
+                <h4>Rent a car</h4>
+                <p>The preservation of human life is the ultimate value, a pillar of ethics and the foundation.</p>
+            </div>
+        </div>
+        <div class="issues_content">
+            <div class="issues_content_img">
+                <img src="/img/o3.jpg" alt="car">
+            </div>
+            <div class="issues_content_text">
+                <h4>Rent a car</h4>
+                <p>The preservation of human life is the ultimate value, a pillar of ethics and the foundation.</p>
+            </div>
+        </div>
+        <div class="issues_content">
+            <div class="issues_content_img">
+                <img src="/img/o4.jpg" alt="car">
+            </div>
+            <div class="issues_content_text">
+                <h4>Food Features</h4>
+                <p>The preservation of human life is the ultimate value, a pillar of ethics and the foundation.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Testimonial from our Clients -->
+    <section class="testimonial">
+        <div class="testimonial_title">
+            <h1> Testimonial from our Clients
+            </h1>
+            <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from</p>
+        </div>
+        <!-- SWIPER -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="testimonial_swiper">
+                        <div class="ts_img">
+                            <img src="/img/user2.png" alt="user1">
+                        </div>
+                        <div class="ts_text">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos doloremque unde
+                                fugit, error .</p>
+                            <h3>Asma Lamrabet</h3>
+                            <div>
+                                <i class="fas fa-star ok"></i>
+                                <i class="fas fa-star ok"></i>
+                                <i class="fas fa-star ok"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial_swiper">
+                        <div class="ts_img">
+                            <img src="/img/user1.png" alt="user1">
+                        </div>
+                        <div class="ts_text">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos doloremque unde
+                                fugit, error .</p>
+                            <h3>Asma Lamrabet</h3>
+                            <div>
+                                <i class="fas fa-star ok"></i>
+                                <i class="fas fa-star ok"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial_swiper">
+                        <div class="ts_img">
+                            <img src="/img/user1.png" alt="user1">
+                        </div>
+                        <div class="ts_text">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos doloremque unde
+                                fugit, error .</p>
+                            <h3>Asma Lamrabet</h3>
+                            <div>
+                                <i class="fas fa-star ok"></i>
+                                <i class="fas fa-star ok"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                ...
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-pagination">
+                
+            </div>
+
+        </div>
 
 
 
 
+    </section>
+
+
+    <script src="../dist/js/swiper.min.js"></script>
+    <script src="path/to/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/main.min.js"></script>
     <script src="js/main.js"></script>

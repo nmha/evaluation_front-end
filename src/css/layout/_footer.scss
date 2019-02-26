@@ -1,0 +1,32 @@
+footer{
+    background: #04091e;
+    padding:50px  30px;
+}
+
+.infos_1{
+    width: 250px;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    h3{
+        padding:5px;
+        text-transform: uppercase;
+    }
+    p{
+        color: grey;
+        font-size: 15px;
+        padding:5px;
+
+    }
+    a{
+        text-decoration: none;
+        color: grey;
+        font-size: 15px;
+    }
+}
+.infos{
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,38 +1,56 @@
 //*****************//
+//*** HEADERS**//
+//*****************//
+.home{
+    background: linear-gradient(to right, #0000003d, rgba(17, 16, 16, 0.507)),
+    url('../img/hero-bg.jpg')no-repeat center/cover;
+}
+.book{
+    background: linear-gradient(to right, #0000003d, rgba(17, 16, 16, 0.507)),
+    url('../img/top-banner-book.jpg')no-repeat center/cover;
+    height: 40vh;
+}
+
+.packages{
+    background: linear-gradient(to right, #0000003d, rgba(17, 16, 16, 0.507)),
+    url('../img/top-banner.jpg')no-repeat center/cover;
+    height: 40vh;
+}
+
+//*****************//
 //***SMALL HEADER**//
 //*****************//
+
+
 header {
-    background: linear-gradient(to right, #0000003d, rgba(17, 16, 16, 0.507)),
-        url('../img/hero-bg.jpg')no-repeat center/cover;
+   
     width: 100%;
-    height: 135vh;
+    height: 130vh;
     color: white;
     font-family: 'Poppins', sans-serif;
 
     .small_header {
-        padding: 10px 50px;
+        padding: 0px;
 
         .sh_1 {
             display: flex;
             justify-content: space-between;
             padding: 10px 10px 0 20px;
-
-
             .sh_1_a {
                 font-size: 12px;
                 width: 150px;
                 display: flex;
                 justify-content: space-around;
-                padding: 10px
-
-                a {
+                padding: 10px;
+                
+                a{
                     text-decoration: none;
-                    color: white;
-
-                    // &:hover {
-                    //     color: #f8b600;
-                    // }
-                }
+                    color: white; 
+                    cursor: pointer;
+                &:hover {
+                    color: #f8b600;
+                } 
+            }
             }
 
             .sh_1_b {
@@ -41,7 +59,7 @@ header {
                 display: flex;
                 justify-content: space-around;
 
-                i {
+                i {cursor: pointer;
                     &:hover {
                         color: #f8b600;
                     }
@@ -64,10 +82,10 @@ header {
             .sh_2_b {
                 .burger-menu {
                     width: 70px;
-                    height: 80px;
+                    height: 65px;
                     position: fixed;
-                    top: 37px;
-                    right: 70px;
+                    top: 58px;
+                    right: 20px;
                     display: flex;
                     justify-content: space-evenly;
                     align-items: center;
@@ -82,18 +100,18 @@ header {
                         position: absolute;
 
                         &:first-child {
-                            top: 25px;
+                            top: 22px;
                             left: 25px;
                         }
 
                         &:nth-child(2) {
                             top: 30px;
-                            left: 10;
+                            left: 25px;
                         }
 
                         &:last-child {
-                            top: 35px;
-                            left: 10;
+                            top: 38px;
+                            left: 25px;
                         }
                     }
 
@@ -116,14 +134,22 @@ header {
                 }
             }
         }
-        .sticky{
-            position: fixed;
-            top: 0;
-            height: 90px;
-            background: #0a0a0af5;
-            z-index: 10;
-        }
+      
     }
+   
+}
+.sticky{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: -10px;
+    left: -10px;
+    height: 100px;
+    width: 100vw;
+    z-index: 10;
+    background: #2b2c2dd9;
+    padding: 0;
+    margin: 0;
 }
 
 //au click///

@@ -1,0 +1,402 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+    &.hidden{
+        overflow: hidden;
+    }
+}
+
+
+//****************************//
+//*** POPULAR DESTINATIONS **//
+//**************************//
+
+.destinations{
+    background: white;
+    padding: 30px;
+    .destinations_text{
+        height: 250px;
+        padding: 30px 10px;
+        text-align: center;
+        p{
+            color: grey;
+        }
+
+    }
+    .destinations_img{
+        height: 250px;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        margin: 30px 0;
+
+        img{
+        position: absolute;
+        top: 10px;
+        left: 30px;
+        transition: 1s all ease-in-out;
+        &:hover{
+            opacity: 0.5;
+        }
+        }
+        h5{
+            position: absolute;
+            top: 100px;
+            left: 225px;
+            color: white;
+            z-index: 3;  
+        }
+        h6{
+            position: absolute;
+            top: 130px;
+            left: 241px;
+            color: white;
+            font-weight: bold;
+            z-index: 3;  
+
+        }
+        button{
+            position: absolute;
+            top: 85px;
+            height: 28px;
+            left: 225px;
+            width: 90px;
+            background-color: #f8b600;
+            border: none;
+            color: black;
+            z-index: -1;
+            &:hover{
+                position: absolute;
+                top: 85px;
+                height: 28px;
+                left: 225px;
+                width: 90px;
+                background-color: #f8b600;
+                border: none;
+                color: black;
+                z-index: 3;
+            }
+        }
+    }
+}
+
+
+//****************************//
+//*** AFFORDABLE **//
+//**************************//
+
+
+.affordable{
+    background:url('/img/price-bg.png') center no-repeat;
+    padding: 30px;
+    margin-bottom: 25px;
+   
+    
+    .affordable_text{
+        height: 250px;
+        padding: 30px 10px;
+        text-align: center;
+        p{
+            color: grey;
+        }
+
+    }
+}
+
+//tabs//
+
+.affordable_tab{
+    background: white;
+    padding: 5px;
+    text-align: center;
+    margin: 20px 0px;
+    .aff_t_text{
+        color: black;
+        text-align: center;
+        p{
+            border-bottom: 1px solid #f8b600;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 15px;
+        }
+    }
+    .aff_t_tab{
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        h5,h6{
+          color: #777777;
+
+        }
+        button{
+            background-color: #f9f9ff;
+            width: 75px;
+            height: 40px;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 5px 20px;
+            border: none;
+            &:hover{
+                background-color: #f8b600;
+            }
+        }
+    }
+}
+
+//****************************//
+//*** ISSUES **//
+//**************************//
+
+.issues{
+    padding: 30px;
+    margin-bottom: 25px;
+    .issues_text{
+        height: 250px;
+        padding: 30px 10px;
+        text-align: center;
+        p{
+            color: grey;
+        }
+
+    }
+}
+
+.issues_content_img{
+    width: 500px;
+    height: 350px;
+    overflow: hidden;
+    img{
+        width: 100%;
+        height: 100%;
+        transition: 0.5s all ease-in-out;
+        &:hover {
+            transform: scale(1.08) rotate(-3deg);
+
+        }
+    }
+}
+.issues_content_text{
+    padding: 5px;
+    text-align: left;
+    h4{
+        color:#333;
+        &:hover{
+            color: #f8b600;
+        }
+    }
+    p{
+        font-size: 15px;
+        color: grey;
+    }
+}
+//****************************//
+//*** TESTIMONIALS **//
+//**************************//
+
+.testimonial{
+    margin-bottom: 25px;
+    background-color: #f9f9ff;
+    padding-bottom: 50px;
+    .testimonial_title{
+        height: 250px;
+        padding: 30px 10px;
+        text-align: center;
+        p{
+            color: grey; 
+               padding: 30px;
+
+        }
+
+    }
+}
+
+
+//****************************//
+//*** SWIPER************** **//
+//**************************//
+
+.swiper-container {
+    width: 400px;
+    height: 300px;
+}
+
+.testimonial_swiper{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    
+    .ts_img{
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+        margin: 20px;
+
+    }
+    .ts_text{
+        color: grey;
+        padding: 5px;
+        margin: 20px;
+        h3{
+            color: black;
+            &:hover{
+                color: #f8b600;
+            }
+        }
+        div{
+           .ok{
+               color:#f8b600;
+           } 
+        }
+    }
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #FFC107;
+    width: 10px;
+    height: 10px;
+}
+
+.swiper-pagination{
+    width: 100px;
+    height: 10px;
+}
+
+
+//****************************//
+//*** CUSTOM PRICE******** **//
+//**************************//
+
+.custom_price{
+    background: white;
+    padding: 50px;
+    .cp_title{
+      padding:0px;
+      text-align: center;
+      h2{
+       padding: 30px;
+      } 
+      p{
+        color: grey;
+        padding: 10px;
+
+      }
+      button{
+          background-color: black;
+          color: white;
+          padding: 10px 25px;
+          font-size: 15px;
+          border: none;
+          transition: all 0.3s ease 0s;
+          &:hover{
+              background-color: #f8b600;
+          }
+      }
+    }
+}
+
+//****************************//
+//*** interlude   ******** **//
+//**************************//
+
+.interlude{
+    width: 100%;
+    height: 400px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+//****************************//
+//*** LATEST   ******** **//
+//**************************//
+
+.latest{
+    text-align: center;
+    padding: 10px 20px;
+    .latest_text{
+        padding-bottom: 35px;
+    }
+}
+.swiper2{
+width: 100%;
+padding-bottom: 10px;
+cursor: pointer;
+   .s2_img{
+     overflow:hidden;
+       img{
+       width: 100%;
+       height: 100%;
+       transition: 0.3s all ease-in-out;
+       &:hover {
+        transform: scale(1.05);
+       }
+       
+    }
+
+   }
+}
+
+.s2_txt{
+    text-align:left;
+    .s2_btn{
+        padding: 10px 0;
+        button{
+            background-color:#f9f9ff ;
+    width: 60px;
+    height: 35px;
+    border: 1px solid grey;
+    color: gray;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    &:hover{
+        background-color: #f8b600;
+        color: black;
+    }
+        }
+         }
+}
+
+.s2_txt{
+    a{
+        text-decoration: none;
+        text-transform: capitalize ;
+        font-size: 20px;
+        color: #333;
+        &:hover{
+            color: #f8b600;
+            
+        }
+    }
+}
+
+::selection {
+    background: #f8b600;
+    color: black;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #FF0099;
+    color: #EEE;
+    text-shadow: none;
+}
+
+// //parallax test
+// .parallax-window {
+//     min-height: 400px;
+//     background: transparent;
+// }
+
+
+
+//*********************//**************************//*****//
+//*********************//**************************//*******//
+//*** RESPONSIVE********//**************************//*****//
+//**********************//**************************//****//
+//***********************//**************************//***//
+
+

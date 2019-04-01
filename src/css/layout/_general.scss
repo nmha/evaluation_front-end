@@ -23,13 +23,43 @@
 
 .choose-container{
     background:#f9f9ff;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
+    padding-bottom: 100px;
     p{
         color: grey;
     }
 }
 
+
+// Vue
+
+.choose-vue{
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        li{
+            list-style-type: none; 
+            font-size: 25px;
+            a{
+            text-decoration: none;
+            color: rgb(20, 155, 148);
+            font-weight: bold;
+            &:hover{
+                color:rgb(71, 54, 7);
+            }
+            }
+        }
+    }
+}
+
+.book-scroll{
+    display: none;
+    &.scrolling{
+        display: inline; 
+    }
+}
 
 
 
@@ -49,6 +79,9 @@
     padding: 5px;
     text-align: center;
     margin: 20px 0px;
+    img{
+        width: 100%;
+    }
     .aff_t_text_pack{
         text-align: left;
         p{
@@ -65,7 +98,7 @@
         display: flex;
         justify-content: space-between;
         width: 500px;
-        h5{
+                h5{
           color: #777777;
           font-size: 14px;
 

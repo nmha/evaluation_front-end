@@ -14,6 +14,7 @@ body{
 .destinations{
     background: white;
     padding: 30px;
+    padding-bottom: 90px;
     .destinations_text{
         height: 250px;
         padding: 30px 10px;
@@ -87,9 +88,10 @@ body{
 
 
 .affordable{
-    background:url('/img/price-bg.png') center no-repeat;
-    padding: 30px;
-    margin-bottom: 25px;
+    background:url('../img/price-bg.png')no-repeat center/cover;
+    padding: 0 30px;
+    padding-bottom: 95px;
+    padding-top: 70px;
    
     
     .affordable_text{
@@ -274,7 +276,7 @@ body{
       padding:0px;
       text-align: center;
       h2{
-       padding: 30px;
+       padding: 0px 50px;
       } 
       p{
         color: grey;
@@ -379,11 +381,6 @@ cursor: pointer;
     text-shadow: none;
 }
 
-::-moz-selection {
-    background: #FF0099;
-    color: #EEE;
-    text-shadow: none;
-}
 
 // //parallax test
 // .parallax-window {

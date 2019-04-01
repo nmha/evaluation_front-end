@@ -35,13 +35,11 @@ header {
         .sh_1 {
             display: flex;
             justify-content: space-between;
-            padding: 10px 10px 0 20px;
-            .sh_1_a {
+                    .sh_1_a {
                 font-size: 12px;
                 width: 150px;
                 display: flex;
                 justify-content: space-around;
-                padding: 10px;
                 
                 a{
                     text-decoration: none;
@@ -55,9 +53,10 @@ header {
 
             .sh_1_b {
                 font-size: 12px;
-                width: 100px;
+                width: 150px;
                 display: flex;
                 justify-content: space-around;
+                padding: 10px;
 
                 i {cursor: pointer;
                     &:hover {
@@ -77,12 +76,12 @@ header {
             justify-content: space-between;
             background: #5a636f82;
             padding: 20px;
-            margin: 10px;
+           
 
             .sh_2_b {
                 .burger-menu {
-                    width: 70px;
-                    height: 65px;
+                    width: 50px;
+                    height: 50px;
                     position: fixed;
                     top: 58px;
                     right: 20px;
@@ -100,17 +99,17 @@ header {
                         position: absolute;
 
                         &:first-child {
-                            top: 22px;
+                            top: 6px;
                             left: 25px;
                         }
 
                         &:nth-child(2) {
-                            top: 30px;
+                            top: 12px;
                             left: 25px;
                         }
 
                         &:last-child {
-                            top: 38px;
+                            top: 19px;
                             left: 25px;
                         }
                     }
@@ -140,16 +139,12 @@ header {
 }
 .sticky{
     position: fixed;
-    display: flex;
-    justify-content: space-between;
     top: -10px;
     left: -10px;
     height: 100px;
     width: 100vw;
     z-index: 10;
-    background: #2b2c2dd9;
-    padding: 0;
-    margin: 0;
+    background: #000000eb;
 }
 
 //au click///

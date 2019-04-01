@@ -85,6 +85,28 @@
                 <p>Your city trip is waiting for you ♥</p>
             </div>
 
+            <div class="choose-vue" id="app">
+                <ul>
+                    <li v-for="c in trips" :key="c.tripId"> <a href="#" @click.prevent="selectCountry(c.countryName)">{{c.countryName}}</a> </li>
+                    <li> <a href="#" >Spain</a> </li>
+                    <li> <a href="#" >Belgium</a> </li>
+                </ul>
+                <div class="book-scroll scrolling">
+                    <p>You've chosen :
+                            {{selectedCountry}}  <br>
+                            There are 3 city-trips available there !</p>
+                    <h1>How many people will take the trip ? <br> <br>
+                        <select>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </h1>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -106,7 +128,7 @@
 
     <!-- iNTERLUDE  -->
     <section class="interlude">
-        <img src="/img/about-img.jpg" alt="nice_vue">
+        <img src="img/about-img.jpg" alt="nice_vue">
     </section>
 
 <!-- FOOTER -->
@@ -144,16 +166,9 @@
             </div>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.22/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.22/vue.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -163,7 +178,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/main.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/vue.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
 </html>
+
+
+

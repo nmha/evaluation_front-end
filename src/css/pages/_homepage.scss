@@ -496,7 +496,6 @@ header {
         }
     }
 }
- }
 
 
 //****************************//
@@ -531,12 +530,8 @@ header {
         left: 30px;
         transition: 1s all ease-in-out;
         &:hover{
-            width:100%;
-    height:100%;
-    position:absolute;
-    background-color:#000;
-    opacity:0;
-            z-index: 2;
+            opacity: 0.5;
+           
         }
         }
         h5{
@@ -643,14 +638,13 @@ header {
 }
 
 .issues_content{
-
+margin: 10px;
 }
 
 .issues_content_img{
     width: 350px;
     height: 220px;
     overflow: hidden;
-    padding: 10px;
     img{
         width: 100%;
         height: 100%;
@@ -678,7 +672,7 @@ header {
 }
 
 .issues_container{
-    width: 750px;
+    width: 800px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -713,14 +707,16 @@ header {
 //**************************//
 
 .swiper-container {
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
 }
+
 
 .testimonial_swiper{
     display: flex;
     justify-content: space-between;
     background: white;
+    width: 600px;
     
     .ts_img{
         width: 50px;
@@ -731,8 +727,9 @@ header {
     }
     .ts_text{
         color: grey;
-        padding: 5px;
+        padding: 10px;
         margin: 20px;
+        width: 600px;
         h3{
             color: black;
             &:hover{
@@ -771,11 +768,11 @@ header {
       padding:0px;
       text-align: center;
       h2{
-       padding: 0px 50px;
+       padding:25px 150px;
       } 
       p{
         color: grey;
-        padding: 10px;
+        padding:15px 100px;
 
       }
       button{
@@ -837,6 +834,7 @@ cursor: pointer;
 
 .s2_txt{
     text-align:left;
+
     .s2_btn{
         padding: 10px 0;
         button{
@@ -871,7 +869,51 @@ cursor: pointer;
 }
 
 
+footer{
+    background:#04091e;
+    padding:50px  30px;
+}
+
+
+.infos_1{
+    width: 250px;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    h3{
+        padding:5px;
+        text-transform: uppercase;
+    }
+    p{
+        color: grey;
+        font-size: 15px;
+        padding:5px;
+
+    }
+    a{
+        text-decoration: none;
+        color: grey;
+        font-size: 15px;
+    }
+}
+.infos{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-direction: row;
+}
 
 
 
+
+
+
+
+
+
+
+
+
+ }
 

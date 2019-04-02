@@ -34,25 +34,30 @@ $(window).scroll(function () {
 
 
 //****************************//
-//*** SWIPER************** **//
+//*** SWIPER*****************//
 //**************************//
-var mySwiper = new Swiper ('.swiper-container', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
+var swiper = new Swiper('.swiper-container', {
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
 
-    // Navigation arrows
-    pagination: {
-        el: '.swiper-pagination',
-      },
-
-    
-  })
 
 //   deuxième swiper 
 
 var swiper = new Swiper('.swiper-container2', {
-    spaceBetween: 30,
+    spaceBetween: 40,
     centeredSlides: true,
     autoplay: {
       delay: 2500,
@@ -68,6 +73,9 @@ var swiper = new Swiper('.swiper-container2', {
     },
   });
 
+
+
+  
 
 
 

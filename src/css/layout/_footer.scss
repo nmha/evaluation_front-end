@@ -31,3 +31,23 @@ footer{
     justify-content: space-evenly; 
     flex-direction: column;
 }
+
+.news{
+    background: #04091e;
+    border:1px solid #f8b600;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+.instafeed{
+    padding: 5px;
+    width: 250px;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
+   
+
+   

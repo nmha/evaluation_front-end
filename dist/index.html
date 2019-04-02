@@ -70,27 +70,40 @@
             </div>
 
             <div class="bh_2">
-                <div class="bh_2_a">
+                
+                <div class="bh_2_b">
+                    <div class="bh_2_a">
                     <ul>
                         <li><a href="" class="flights">Flights</a></li>
                         <li><a href="" class="hotels">Hotels</a></li>
                         <li><a href="" class="Holydays">Holidays</a></li>
                     </ul>
                 </div>
-                <div class="bh_2_b">
                     <div class="form_container">
-                        <form action="get">
-                            <input type="text" name="from" id="from" required autofocus maxlength="10" autocomplete="from"
-                                placeholder="From">
-                            <input type="text" name="to" id="to" required autofocus maxlength="10" autocomplete="to"
-                                placeholder="To">
-                            <input type="date" id="date" name="date" placeholder="Start">
-                            <input type="date" id="date" name="date" placeholder="Return">
-                            <input type="text" name="return" id="return" required autofocus maxlength="10" autocomplete="return"
-                                placeholder="1">
-                            <input type="text" name="return" id="return" required autofocus maxlength="10" autocomplete="return"
-                                placeholder="1">
-                        </form>
+                       <form action="get"data-type="flights">
+              <input  class="question" type="text" name="from"
+                  placeholder="From">
+              <input  class="question" type="text"name="to" placeholder="To">
+              <input  class="question" type="text" name="start" placeholder="Start">
+              <input  class="question" type="text" name="return" placeholder="Return">
+              <select class="question"  name="adults" placeholder="adults">
+                  <option value="0">Adults</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+              </select>
+              <select  class="question" name="child" placeholder="Child">
+                      <option value="0">Child</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+              </select>
+          </form>
                         <button class="main-button"> search flights</button>
                     </div>
 
@@ -257,42 +270,44 @@
             </p>
         </div>
         <!-- REPETITION 4 TIMES -->
-        <div class="issues_content">
-            <div class="issues_content_img">
-                <img src="img/o1.jpg" alt="car">
-            </div>
-            <div class="issues_content_text">
-                <h4>Rent a car</h4>
-                <p>The preservation of human life is the ultimate value, a pillar of ethics and the foundation.</p>
-            </div>
-        </div>
-        <div class="issues_content">
-            <div class="issues_content_img">
-                <img src="img/o2.jpg" alt="car">
-            </div>
-            <div class="issues_content_text">
-                <h4>Rent a car</h4>
-                <p>The preservation of human life is the ultimate value, a pillar of ethics and the foundation.</p>
-            </div>
-        </div>
-        <div class="issues_content">
-            <div class="issues_content_img">
-                <img src="img/o3.jpg" alt="car">
-            </div>
-            <div class="issues_content_text">
-                <h4>Rent a car</h4>
-                <p>The preservation of human life is the ultimate value, a pillar of ethics and the foundation.</p>
-            </div>
-        </div>
-        <div class="issues_content">
-            <div class="issues_content_img">
-                <img src="img/o4.jpg" alt="car">
-            </div>
-            <div class="issues_content_text">
-                <h4>Food Features</h4>
-                <p>The preservation of human life is the ultimate value, a pillar of ethics and the foundation.</p>
-            </div>
-        </div>
+       <div class="issues_container">
+            <div class="issues_content">
+                    <div class="issues_content_img">
+                        <img src="img/o1.jpg" alt="car">
+                    </div>
+                    <div class="issues_content_text">
+                        <h4>Rent a car</h4>
+                        <p>The preservation of human life is the ultimate value, a pillar of ethics and the foundation.</p>
+                    </div>
+                </div>
+                <div class="issues_content">
+                    <div class="issues_content_img">
+                        <img src="img/o2.jpg" alt="car">
+                    </div>
+                    <div class="issues_content_text">
+                        <h4>Rent a car</h4>
+                        <p>The preservation of human life is the ultimate value, a pillar of ethics and the foundation.</p>
+                    </div>
+                </div>
+                <div class="issues_content">
+                    <div class="issues_content_img">
+                        <img src="img/o3.jpg" alt="car">
+                    </div>
+                    <div class="issues_content_text">
+                        <h4>Rent a car</h4>
+                        <p>The preservation of human life is the ultimate value, a pillar of ethics and the foundation.</p>
+                    </div>
+                </div>
+                <div class="issues_content">
+                    <div class="issues_content_img">
+                        <img src="img/o4.jpg" alt="car">
+                    </div>
+                    <div class="issues_content_text">
+                        <h4>Food Features</h4>
+                        <p>The preservation of human life is the ultimate value, a pillar of ethics and the foundation.</p>
+                    </div>
+                </div>
+       </div>
 
     </section>
 

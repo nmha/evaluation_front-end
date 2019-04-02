@@ -917,3 +917,93 @@ footer{
 
  }
 
+
+
+
+ //**************//
+ //****LAPTOP*****//
+ //************//
+
+ @media screen and (min-width:1100px) and(max-width:1700px){
+
+    .sh_2_b_titles{
+
+        a{
+            text-decoration: none;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        display: inline-block;
+        z-index: 20;
+        }
+    }
+
+    .burger-menu {
+       display: none;;
+    }
+
+//searchtoolheader
+header {
+    .big_header {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        .bh_2 {
+            .bh_2_a {
+                padding-bottom: 0px;
+                display: inline-block;
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    li { 
+                        list-style-type: none;
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            padding: 10px;
+                            background: rgba(153, 152, 152, 0.404);
+                            font-weight: bold;
+                            font-size: 15px;
+                        }
+                    }
+                }
+
+            }
+            .bh_2_b{
+                background: white;
+                width: 500px;
+                height: 500px;
+                .form_container{
+                    padding: 20px 40px;
+                    text-align: center;
+                    form{
+                       
+                        input, select{
+                            width: 330px;
+                            height: 50px;
+                            padding: 10px;
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+.destinations{
+    width: 800px;
+}
+
+
+
+
+
+
+
+
+
+ }
+

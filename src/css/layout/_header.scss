@@ -8,7 +8,7 @@
 .book{
     background: linear-gradient(to right, #0000003d, rgba(17, 16, 16, 0.507)),
     url('../img/top-banner-book.jpg')no-repeat center/cover;
-    height: 40vh;
+    height: 50vh;
 }
 
 .packages{
@@ -136,6 +136,17 @@ header {
       
     }
    
+}
+
+
+.sh_2_b_titles{
+    a{
+        text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    display: none;
+    }
 }
 .sticky{
     position: fixed;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <title>Evaluation HTML/CSS/JS/ 2018-2019</title>
@@ -85,29 +85,45 @@
                 <p>Your city trip is waiting for you ♥</p>
             </div>
 
-            <div class="choose-vue" id="app">
-                <ul>
-                    <li v-for="c in trips" :key="c.tripId"> <a href="#" @click.prevent="selectCountry(c.countryName)">{{c.countryName}}</a> </li>
-                    <li> <a href="#" >Spain</a> </li>
-                    <li> <a href="#" >Belgium</a> </li>
-                </ul>
-                <div class="book-scroll scrolling">
-                    <p>You've chosen :
-                            {{selectedCountry}}  <br>
-                            There are 3 city-trips available there !</p>
-                    <h1>How many people will take the trip ? <br> <br>
-                        <select>
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                        </select>
-                    </h1>
-                </div>
-            </div>
-
         </div>
+      <div id="app"class="choose-container2">
+                <div class="choose-container">
+
+                <ul class="ul-prout">
+                  <li class="prout" v-for="c in trips" :key="c.tripId">
+                    <a class="a-" href="#" @click.prevent="selectCountry(c.countryName)">{{c.countryName}}</a>
+                  </li>
+                </ul>
+        </div>
+
+                <h2>
+                    You've chosen :  {{selectedCountry}}
+                </h2>
+                <p>There are 3 city-trips available there !</p>
+               
+                <h2>
+                        How many people will take the trip ? <br>
+                  <select v-model="numberOfTravelers">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                </h2>
+               
+               
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
     </section>
 
 
